@@ -6,7 +6,6 @@ function App() {
   const [message, setMessage] = useState('');
   const [ideas, setIdeas] = useState([]);
 
-  // Fetch all ideas on load
   useEffect(() => {
     fetchIdeas();
   }, []);
