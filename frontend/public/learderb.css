@@ -1,0 +1,68 @@
+body {
+  background: #f6f8fb;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(48,79,254,0.04);
+}
+.navbar {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #304ffe;
+  letter-spacing: 2px;
+}
+nav a {
+  margin-left: 28px;
+  color: #26304b;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+nav a:hover {
+  background: #e3eaff;
+  color: #304ffe;
+}
+
+.leaderboard-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(48,79,254,0.06);
+  padding: 40px 28px;
+  max-width: 740px;
+  margin: 45px auto 0 auto;
+  text-align: center;
+}
+.leaderboard-card h2 {
+  color: #304ffe;
+  margin-bottom: 24px;
+}
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.leaderboard-table th, .leaderboard-table td {
+  border-bottom: 1px solid #e3eaff;
+  padding: 15px 8px;
+  text-align: center;
+  font-size: 1.05em;
+}
+.leaderboard-table th {
+  background: #e3eaff;
+  color: #304ffe;
+}
+.leaderboard-table tbody tr:first-child {
+  font-weight: 700;
+  background: #f4f8ff;
+}

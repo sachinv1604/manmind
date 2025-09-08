@@ -1,0 +1,58 @@
+body {
+  background: #f6f8fb;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(48,79,254,0.04);
+}
+.navbar {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #304ffe;
+}
+nav a {
+  margin-left: 28px;
+  color: #26304b;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+nav a:hover {
+  background: #e3eaff;
+  color: #304ffe;
+}
+
+.instructions-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(48,79,254,0.05);
+  padding: 38px 28px;
+  max-width: 720px;
+  margin: 48px auto;
+  text-align: center;
+}
+.instructions-card h2 {
+  color: #304ffe;
+  margin-bottom: 18px;
+}
+.instructions-card ol {
+  text-align: left;
+  font-size: 1.09em;
+  color: #222;
+  padding-left: 22px;
+}
+.instructions-card li {
+  margin-bottom: 14px;
+}
