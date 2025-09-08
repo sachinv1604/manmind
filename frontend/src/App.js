@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: 600, margin: '40px auto', fontFamily: 'Arial, sans-serif' }}>
-      <h1>mankind - Idea Sharing</h1>
+      <h1 >mankind - Idea Sharing</h1>
 
       <textarea
         value={ideaText}
