@@ -204,6 +204,28 @@ li small {
   border-radius: 4px;
 }
 
+@keyframes fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.brain-emoji {
+  position: fixed;
+  top: -50px;
+  font-size: 26px;
+  user-select: none;
+  pointer-events: none;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform, opacity;
+}
 
   
    /* Add some space below links */

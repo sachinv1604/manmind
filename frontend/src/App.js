@@ -8,8 +8,12 @@ function App() {
   const [ideas, setIdeas] = useState([]);
 
   useEffect(() => {
-    fetchIdeas();
-  }, []);
+  fetchIdeas();
+  createBrainEmojis(80);  // add this line to initiate animation
+}, []);
+
+
+
 
   const fetchIdeas = async () => {
     try {
@@ -34,6 +38,23 @@ function App() {
       setMessage('Error submitting idea.');
     }
   };
+
+
+
+  function createBrainEmojis(count = 100) {
+  for(let i = 0; i < count; i++) {
+    const brain = document.createElement('div');
+    brain.textContent = '🧠';
+    brain.className = 'brain-emoji';
+
+    brain.style.left = Math.random() * 100 + 'vw';  // random horizontal
+    brain.style.animationDuration = (5 + Math.random() * 10) + 's'; // speed
+    brain.style.animationDelay = (Math.random() * 15) + 's'; // stagger
+
+    document.body.appendChild(brain);
+  }
+}
+
 
   return (
     <div className="app-container" style={{ maxWidth: 600, margin: '0 auto', padding: 10 }}>
