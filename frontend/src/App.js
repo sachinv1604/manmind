@@ -57,7 +57,7 @@ function App() {
 
 
   return (
-    <div className="app-container" style={{ maxWidth: 600, margin: '0 auto', padding: 10 }}>
+    <div className="app-container">
       <h1>MANKIND</h1>
       <hr className="divider" />
 
@@ -78,7 +78,7 @@ function App() {
         onChange={e => setIdeaText(e.target.value)}
         rows={4}
         placeholder="Write your brilliant idea here starting with hey companyname, e.g., hey amazon, hey google..."
-        style={{ width: '96%', padding: 10, fontSize: 16 }}
+        style={{  padding: 10, fontSize: 16 }}
       />
       <div style={{ textAlign: 'center' }}>
       <button onClick={submitIdea} style={{ marginTop: 10, padding: '10px 20px', fontSize: 16 }}>
