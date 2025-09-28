@@ -4,7 +4,7 @@
 
   padding-top: 90px;
   
-  background: #fff;
+  background:#fff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
@@ -18,9 +18,9 @@ h1 {
   color: #4b44da;
   text-align: center;
   margin: 0;
-  
+  background-color: rgb(14, 16, 154);
   letter-spacing: 1.5px; 
-  background-color:#edeef2; /* Ensure background is blue */
+  background-color:#c5cae9; /* Ensure background is blue */
   position: fixed;
   top: 0;
   left: 0;

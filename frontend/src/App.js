@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+
+
+
+
+
+
 function App() {
   const [ideaText, setIdeaText] = useState('');
   const [message, setMessage] = useState('');
@@ -67,7 +73,7 @@ function App() {
       <nav>
         <a href="learderb.html">Leaderboard</a>
         <a href="instr.html">Instructions</a>
-        <a href="companies.html">Companies You Can Reachout</a>
+        <a href="company.html">Companies You Can Reachout</a>
       </nav>
       </header>
 
