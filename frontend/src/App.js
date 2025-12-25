@@ -64,10 +64,10 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>MANKIND</h1>
+      <h1>MANMIND</h1>
       <hr className="divider" />
 
-      <h4>SHARE YOUR BRILLIANT IDEA DIRECTLY WITH THE COMPANY</h4>
+      <h4>SHARE YOUR SUGGESTIONS AND INNOVATIVE IDEAS TO THE ORGANISATION.</h4>
       <br />
       <header>
       <nav>
